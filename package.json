@@ -1,0 +1,15 @@
+
+{
+"name": "pedrozzapi",
+ "version": "1.0.0",
+ "description": "feita pelo pedrozz mods",
+  "main": "index.js",
+  "author": "pedrozzMods",
+  "license": "MIT",
+  "dependencies": {
+  "express": "^4.18.2", 
+  "fs": "^0.0.2",
+  "cors": "^2.8.5",
+  "ssl-express-www": "^3.2.1"
+ }
+}

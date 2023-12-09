@@ -1,0 +1,39 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.1
+
+Platform: 
+  android arm
+
+Trace: 
+  Error: EPERM: operation not permitted, symlink '../../../mime/cli.js' -> '/storage/emulated/0/pedrozzapi/node_modules/send/node_modules/.bin/mime'
+
+npm manifest: 
+  {
+  "name": "pedrozzapi",
+   "version": "1.0.0",
+   "description": "feita pelo pedrozz mods",
+    "main": "index.js",
+    "author": "pedrozzMods",
+    "license": "MIT",
+    "dependencies": {
+    "express": "^4.18.2", 
+    "fs": "^0.0.2",
+    "cors": "^2.8.5",
+    "ssl-express-www": "^3.2.1"
+   }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
